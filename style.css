@@ -1,0 +1,92 @@
+body{
+    background-color: brown ;
+}
+.navbar{
+    background-color: rgb(235, 150, 124,0.8);
+    margin: -10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+}
+
+.menu li{
+    margin-right: 30px;
+}
+
+.logo span::before{
+    color: rgb(196, 31, 31);
+    content: "SAM";
+    font-size: larger;
+    animation: samragyi infinite 3s;
+}
+
+@keyframes samragyi {
+    0%{
+        color: aliceblue;
+
+    }
+
+    50%{
+        color: brown;
+    }
+}
+
+.menu li:hover{
+    color: brown;
+    transition: .7s;
+    text-decoration: underline 3px;
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+    font-size: 40px;
+    color: aliceblue;
+    background-color: rgb(238, 117, 117,0.3);
+    
+}
+
+.change{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+.change span::before{
+    content: "STUDENT";
+    animation: sam infinite 3s;
+}
+
+@keyframes sam{
+    0%{
+        content: "PHOTOGRAPHER";
+        color: aliceblue;
+
+    }
+
+    50%{
+        content: "WEB DEVELOPER";
+        color: bisque;
+    }
+}
+
+footer{
+    text-align: center;
+    color: rgba(236, 216, 209, 0.8);
+    margin-top: 250px;
+    padding: 10px;
+    
+}
+
+footer span{
+    border: 1px solid rgb(235, 150, 124,0.8);
+    padding: 5px;
+}
